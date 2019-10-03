@@ -1,11 +1,11 @@
 <?php
 
-namespace EdwinFadilah\Passport\Http\Middleware;
+namespace Bahaso\Passport\Http\Middleware;
 
 use Closure;
 use League\OAuth2\Server\ResourceServer;
 use Illuminate\Auth\AuthenticationException;
-use EdwinFadilah\Passport\Exceptions\MissingScopeException;
+use Bahaso\Passport\Exceptions\MissingScopeException;
 use League\OAuth2\Server\Exception\OAuthServerException;
 use Symfony\Bridge\PsrHttpMessage\Factory\DiactorosFactory;
 
@@ -59,7 +59,7 @@ class CheckClientCredentials
      * @param  \Psr\Http\Message\ServerRequestInterface $psr
      * @param  array  $scopes
      * @return void
-     * @throws \EdwinFadilah\Passport\Exceptions\MissingScopeException
+     * @throws \Bahaso\Passport\Exceptions\MissingScopeException
      */
     protected function validateScopes($psr, $scopes)
     {

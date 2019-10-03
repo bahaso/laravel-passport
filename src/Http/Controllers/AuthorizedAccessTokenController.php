@@ -1,24 +1,24 @@
 <?php
 
-namespace EdwinFadilah\Passport\Http\Controllers;
+namespace Bahaso\Passport\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use EdwinFadilah\Passport\TokenRepository;
+use Bahaso\Passport\TokenRepository;
 
 class AuthorizedAccessTokenController
 {
     /**
      * The token repository implementation.
      *
-     * @var \Laravel\Passport\TokenRepository
+     * @var \Bahaso\Passport\TokenRepository
      */
     protected $tokenRepository;
 
     /**
      * Create a new controller instance.
      *
-     * @param  \Laravel\Passport\TokenRepository  $tokenRepository
+     * @param  \Bahaso\Passport\TokenRepository  $tokenRepository
      * @return void
      */
     public function __construct(TokenRepository $tokenRepository)

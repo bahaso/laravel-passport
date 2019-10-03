@@ -6,7 +6,7 @@
  * Time: 20:44
  */
 
-namespace EdwinFadilah\Passport\GrantTypes;
+namespace Bahaso\Passport\GrantTypes;
 
 use DateInterval;
 use League\OAuth2\Server\Entities\ClientEntityInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace EdwinFadilah\Passport\Http\Controllers;
+namespace Bahaso\Passport\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Zend\Diactoros\Response as Psr7Response;

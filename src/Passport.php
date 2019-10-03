@@ -1,6 +1,6 @@
 <?php
 
-namespace EdwinFadilah\Passport;
+namespace Bahaso\Passport;
 
 use Mockery;
 use DateInterval;
@@ -115,28 +115,28 @@ class Passport
      *
      * @var string
      */
-    public static $authCodeModel = 'EdwinFadilah\Passport\AuthCode';
+    public static $authCodeModel = 'Bahaso\Passport\AuthCode';
 
     /**
      * The client model class name.
      *
      * @var string
      */
-    public static $clientModel = 'EdwinFadilah\Passport\Client';
+    public static $clientModel = 'Bahaso\Passport\Client';
 
     /**
      * The personal access client model class name.
      *
      * @var string
      */
-    public static $personalAccessClientModel = 'EdwinFadilah\Passport\PersonalAccessClient';
+    public static $personalAccessClientModel = 'Bahaso\Passport\PersonalAccessClient';
 
     /**
      * The token model class name.
      *
      * @var string
      */
-    public static $tokenModel = 'EdwinFadilah\Passport\Token';
+    public static $tokenModel = 'Bahaso\Passport\Token';
 
     /**
      * Indicates if Passport migrations will be run.
@@ -203,7 +203,7 @@ class Passport
 
         $defaultOptions = [
             'prefix' => 'oauth',
-            'namespace' => '\EdwinFadilah\Passport\Http\Controllers',
+            'namespace' => '\Bahaso\Passport\Http\Controllers',
         ];
 
         $options = array_merge($defaultOptions, $options);
@@ -410,7 +410,7 @@ class Passport
     /**
      * Set the current user for the application with the given scopes.
      *
-     * @param  \Illuminate\Contracts\Auth\Authenticatable|\EdwinFadilah\Passport\HasApiTokens  $user
+     * @param  \Illuminate\Contracts\Auth\Authenticatable|\Bahaso\Passport\HasApiTokens  $user
      * @param  array  $scopes
      * @param  string  $guard
      * @return \Illuminate\Contracts\Auth\Authenticatable
@@ -486,7 +486,7 @@ class Passport
     /**
      * Get a new auth code model instance.
      *
-     * @return \EdwinFadilah\Passport\AuthCode
+     * @return \Bahaso\Passport\AuthCode
      */
     public static function authCode()
     {
@@ -517,7 +517,7 @@ class Passport
     /**
      * Get a new client model instance.
      *
-     * @return \EdwinFadilah\Passport\Client
+     * @return \Bahaso\Passport\Client
      */
     public static function client()
     {
@@ -548,7 +548,7 @@ class Passport
     /**
      * Get a new personal access client model instance.
      *
-     * @return \EdwinFadilah\Passport\PersonalAccessClient
+     * @return \Bahaso\Passport\PersonalAccessClient
      */
     public static function personalAccessClient()
     {
@@ -579,7 +579,7 @@ class Passport
     /**
      * Get a new personal access client model instance.
      *
-     * @return \EdwinFadilah\Passport\Token
+     * @return \Bahaso\Passport\Token
      */
     public static function token()
     {

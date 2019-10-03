@@ -1,16 +1,16 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
 use Mockery as m;
-use EdwinFadilah\Passport\Token;
+use Bahaso\Passport\Token;
 use Illuminate\Http\Request;
-use EdwinFadilah\Passport\Passport;
+use Bahaso\Passport\Passport;
 use PHPUnit\Framework\TestCase;
-use EdwinFadilah\Passport\TokenRepository;
+use Bahaso\Passport\TokenRepository;
 use Illuminate\Contracts\Validation\Factory;
 use Symfony\Component\HttpFoundation\Response;
-use EdwinFadilah\Passport\Http\Controllers\PersonalAccessTokenController;
+use Bahaso\Passport\Http\Controllers\PersonalAccessTokenController;
 
 class PersonalAccessTokenControllerTest extends TestCase
 {

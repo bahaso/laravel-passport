@@ -1,19 +1,19 @@
 <?php
 
-namespace EdwinFadilah\Passport\Http\Middleware;
+namespace Bahaso\Passport\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Response;
-use EdwinFadilah\Passport\Passport;
+use Bahaso\Passport\Passport;
 use Illuminate\Http\JsonResponse;
-use EdwinFadilah\Passport\ApiTokenCookieFactory;
+use Bahaso\Passport\ApiTokenCookieFactory;
 
 class CreateFreshApiToken
 {
     /**
      * The API token cookie factory instance.
      *
-     * @var \EdwinFadilah\Passport\ApiTokenCookieFactory
+     * @var \Bahaso\Passport\ApiTokenCookieFactory
      */
     protected $cookieFactory;
 
@@ -27,7 +27,7 @@ class CreateFreshApiToken
     /**
      * Create a new middleware instance.
      *
-     * @param  \EdwinFadilah\Passport\ApiTokenCookieFactory  $cookieFactory
+     * @param  \Bahaso\Passport\ApiTokenCookieFactory  $cookieFactory
      * @return void
      */
     public function __construct(ApiTokenCookieFactory $cookieFactory)

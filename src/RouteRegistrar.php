@@ -1,6 +1,6 @@
 <?php
 
-namespace EdwinFadilah\Passport;
+namespace Bahaso\Passport;
 
 use Illuminate\Contracts\Routing\Registrar as Router;
 

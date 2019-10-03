@@ -1,6 +1,6 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
 use Mockery as m;
 use Illuminate\Http\Request;
@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ResponseInterface;
 use League\OAuth2\Server\AuthorizationServer;
 use League\OAuth2\Server\RequestTypes\AuthorizationRequest;
-use EdwinFadilah\Passport\Http\Controllers\ApproveAuthorizationController;
+use Bahaso\Passport\Http\Controllers\ApproveAuthorizationController;
 
 class ApproveAuthorizationControllerTest extends TestCase
 {

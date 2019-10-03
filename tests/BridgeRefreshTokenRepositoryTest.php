@@ -1,13 +1,13 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
 use Illuminate\Database\Connection;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Contracts\Events\Dispatcher;
-use EdwinFadilah\Passport\Bridge\RefreshTokenRepository;
+use Bahaso\Passport\Bridge\RefreshTokenRepository;
 
 class BridgeRefreshTokenRepositoryTest extends TestCase
 {

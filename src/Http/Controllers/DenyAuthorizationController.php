@@ -1,6 +1,6 @@
 <?php
 
-namespace EdwinFadilah\Passport\Http\Controllers;
+namespace Bahaso\Passport\Http\Controllers;
 
 use Illuminate\Support\Arr;
 use Illuminate\Http\Request;

@@ -9,7 +9,7 @@
 
 ## Introduction
 
-Laravel Passport is an OAuth2 server and API authentication package that is simple and enjoyable to use.
+Bahaso Passport is an OAuth2 server and API authentication package that is simple and enjoyable to use.
 
 ## Official Documentation
 
@@ -17,4 +17,4 @@ Documentation for Passport can be found on the [Laravel website](https://laravel
 
 ## License
 
-Laravel Passport is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Bahaso Passport is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

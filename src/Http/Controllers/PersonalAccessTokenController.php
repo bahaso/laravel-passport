@@ -1,11 +1,11 @@
 <?php
 
-namespace EdwinFadilah\Passport\Http\Controllers;
+namespace Bahaso\Passport\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use EdwinFadilah\Passport\Passport;
-use EdwinFadilah\Passport\TokenRepository;
+use Bahaso\Passport\Passport;
+use Bahaso\Passport\TokenRepository;
 use Illuminate\Contracts\Validation\Factory as ValidationFactory;
 
 class PersonalAccessTokenController
@@ -13,7 +13,7 @@ class PersonalAccessTokenController
     /**
      * The token repository implementation.
      *
-     * @var \Laravel\Passport\TokenRepository
+     * @var \Bahaso\Passport\TokenRepository
      */
     protected $tokenRepository;
 
@@ -27,7 +27,7 @@ class PersonalAccessTokenController
     /**
      * Create a controller instance.
      *
-     * @param  \Laravel\Passport\TokenRepository  $tokenRepository
+     * @param  \Bahaso\Passport\TokenRepository  $tokenRepository
      * @param  \Illuminate\Contracts\Validation\Factory  $validation
      * @return void
      */
@@ -56,7 +56,7 @@ class PersonalAccessTokenController
      * Create a new personal access token for the user.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Laravel\Passport\PersonalAccessTokenResult
+     * @return \Bahaso\Passport\PersonalAccessTokenResult
      */
     public function store(Request $request)
     {

@@ -1,8 +1,8 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
-use EdwinFadilah\Passport\Scope;
+use Bahaso\Passport\Scope;
 use PHPUnit\Framework\TestCase;
 
 class ScopeTest extends TestCase

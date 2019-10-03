@@ -1,11 +1,11 @@
 <?php
 
-namespace EdwinFadilah\Passport\Http\Controllers;
+namespace Bahaso\Passport\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use EdwinFadilah\Passport\ClientRepository;
-use EdwinFadilah\Passport\Http\Rules\RedirectRule;
+use Bahaso\Passport\ClientRepository;
+use Bahaso\Passport\Http\Rules\RedirectRule;
 use Illuminate\Contracts\Validation\Factory as ValidationFactory;
 
 class ClientController
@@ -13,7 +13,7 @@ class ClientController
     /**
      * The client repository instance.
      *
-     * @var \Laravel\Passport\ClientRepository
+     * @var \Bahaso\Passport\ClientRepository
      */
     protected $clients;
 
@@ -27,16 +27,16 @@ class ClientController
     /**
      * The redirect validation rule.
      *
-     * @var \Laravel\Passport\Http\Rules\RedirectRule
+     * @var \Bahaso\Passport\Http\Rules\RedirectRule
      */
     protected $redirectRule;
 
     /**
      * Create a client controller instance.
      *
-     * @param  \Laravel\Passport\ClientRepository  $clients
+     * @param  \Bahaso\Passport\ClientRepository  $clients
      * @param  \Illuminate\Contracts\Validation\Factory  $validation
-     * @param  \Laravel\Passport\Http\Rules\RedirectRule  $redirectRule
+     * @param  \Bahaso\Passport\Http\Rules\RedirectRule  $redirectRule
      * @return void
      */
     public function __construct(
@@ -66,7 +66,7 @@ class ClientController
      * Store a new client.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Laravel\Passport\Client
+     * @return \Bahaso\Passport\Client
      */
     public function store(Request $request)
     {
@@ -85,7 +85,7 @@ class ClientController
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  string  $clientId
-     * @return \Illuminate\Http\Response|\Laravel\Passport\Client
+     * @return \Illuminate\Http\Response|\Bahaso\Passport\Client
      */
     public function update(Request $request, $clientId)
     {

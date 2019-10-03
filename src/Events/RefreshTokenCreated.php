@@ -1,6 +1,6 @@
 <?php
 
-namespace EdwinFadilah\Passport\Events;
+namespace Bahaso\Passport\Events;
 
 class RefreshTokenCreated
 {

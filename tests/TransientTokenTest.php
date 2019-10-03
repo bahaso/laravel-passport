@@ -1,9 +1,9 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
 use PHPUnit\Framework\TestCase;
-use EdwinFadilah\Passport\TransientToken;
+use Bahaso\Passport\TransientToken;
 
 class TransientTokenTest extends TestCase
 {

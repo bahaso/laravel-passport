@@ -1,19 +1,19 @@
 <?php
 
-namespace EdwinFadilah\Passport\Guards;
+namespace Bahaso\Passport\Guards;
 
-use EdwinFadilah\Passport\Exceptions\HttpRequestException;
-use EdwinFadilah\Passport\Exceptions\TokenExpiredException;
-use EdwinFadilah\Passport\Exceptions\TokenRevokedException;
-use EdwinFadilah\Passport\Exceptions\UserNotFoundException;
+use Bahaso\Passport\Exceptions\HttpRequestException;
+use Bahaso\Passport\Exceptions\TokenExpiredException;
+use Bahaso\Passport\Exceptions\TokenRevokedException;
+use Bahaso\Passport\Exceptions\UserNotFoundException;
 use Exception;
 use Firebase\JWT\JWT;
 use Illuminate\Http\Request;
-use EdwinFadilah\Passport\Passport;
+use Bahaso\Passport\Passport;
 use Illuminate\Container\Container;
-use EdwinFadilah\Passport\TransientToken;
-use EdwinFadilah\Passport\TokenRepository;
-use EdwinFadilah\Passport\ClientRepository;
+use Bahaso\Passport\TransientToken;
+use Bahaso\Passport\TokenRepository;
+use Bahaso\Passport\ClientRepository;
 use League\OAuth2\Server\ResourceServer;
 use Illuminate\Contracts\Auth\UserProvider;
 use Illuminate\Contracts\Encryption\Encrypter;
@@ -40,14 +40,14 @@ class TokenGuard
     /**
      * The token repository instance.
      *
-     * @var \EdwinFadilah\Passport\TokenRepository
+     * @var \Bahaso\Passport\TokenRepository
      */
     protected $tokens;
 
     /**
      * The client repository instance.
      *
-     * @var \EdwinFadilah\Passport\ClientRepository
+     * @var \Bahaso\Passport\ClientRepository
      */
     protected $clients;
 
@@ -63,8 +63,8 @@ class TokenGuard
      *
      * @param  \League\OAuth2\Server\ResourceServer $server
      * @param  \Illuminate\Contracts\Auth\UserProvider $provider
-     * @param  \EdwinFadilah\Passport\TokenRepository $tokens
-     * @param  \EdwinFadilah\Passport\ClientRepository $clients
+     * @param  \Bahaso\Passport\TokenRepository $tokens
+     * @param  \Bahaso\Passport\ClientRepository $clients
      * @param  \Illuminate\Contracts\Encryption\Encrypter $encrypter
      */
     public function __construct(ResourceServer $server,

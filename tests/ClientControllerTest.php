@@ -1,16 +1,16 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
 use Mockery as m;
 use Illuminate\Http\Request;
-use EdwinFadilah\Passport\Client;
+use Bahaso\Passport\Client;
 use PHPUnit\Framework\TestCase;
-use EdwinFadilah\Passport\ClientRepository;
+use Bahaso\Passport\ClientRepository;
 use Illuminate\Contracts\Validation\Factory;
-use EdwinFadilah\Passport\Http\Rules\RedirectRule;
+use Bahaso\Passport\Http\Rules\RedirectRule;
 use Symfony\Component\HttpFoundation\Response;
-use EdwinFadilah\Passport\Http\Controllers\ClientController;
+use Bahaso\Passport\Http\Controllers\ClientController;
 
 class ClientControllerTest extends TestCase
 {

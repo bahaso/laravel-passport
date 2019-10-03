@@ -1,12 +1,12 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
 use Mockery as m;
 use phpseclib\Crypt\RSA;
-use EdwinFadilah\Passport\Passport;
+use Bahaso\Passport\Passport;
 use PHPUnit\Framework\TestCase;
-use EdwinFadilah\Passport\Console\KeysCommand;
+use Bahaso\Passport\Console\KeysCommand;
 
 function custom_path($file = null)
 {

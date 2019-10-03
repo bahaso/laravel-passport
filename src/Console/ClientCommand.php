@@ -1,11 +1,11 @@
 <?php
 
-namespace EdwinFadilah\Passport\Console;
+namespace Bahaso\Passport\Console;
 
-use EdwinFadilah\Passport\Client;
-use EdwinFadilah\Passport\Contracts\ClientModelInterface;
+use Bahaso\Passport\Client;
+use Bahaso\Passport\Contracts\ClientModelInterface;
 use Illuminate\Console\Command;
-use EdwinFadilah\Passport\ClientRepository;
+use Bahaso\Passport\ClientRepository;
 
 class ClientCommand extends Command
 {
@@ -32,7 +32,7 @@ class ClientCommand extends Command
     /**
      * Execute the console command.
      *
-     * @param  \EdwinFadilah\Passport\ClientRepository  $clients
+     * @param  \Bahaso\Passport\ClientRepository  $clients
      * @return void
      */
     public function handle(ClientRepository $clients)
@@ -51,7 +51,7 @@ class ClientCommand extends Command
     /**
      * Create a new personal access client.
      *
-     * @param  \EdwinFadilah\Passport\ClientRepository  $clients
+     * @param  \Bahaso\Passport\ClientRepository  $clients
      * @return void
      */
     protected function createPersonalClient(ClientRepository $clients)
@@ -73,7 +73,7 @@ class ClientCommand extends Command
     /**
      * Create a new password grant client.
      *
-     * @param  \EdwinFadilah\Passport\ClientRepository  $clients
+     * @param  \Bahaso\Passport\ClientRepository  $clients
      * @return void
      */
     protected function createPasswordClient(ClientRepository $clients)
@@ -95,7 +95,7 @@ class ClientCommand extends Command
     /**
      * Create a client credentials grant client.
      *
-     * @param  \EdwinFadilah\Passport\ClientRepository  $clients
+     * @param  \Bahaso\Passport\ClientRepository  $clients
      * @return void
      */
     protected function createClientCredentialsClient(ClientRepository $clients)
@@ -117,7 +117,7 @@ class ClientCommand extends Command
     /**
      * Create a authorization code client.
      *
-     * @param  \EdwinFadilah\Passport\ClientRepository  $clients
+     * @param  \Bahaso\Passport\ClientRepository  $clients
      * @return void
      */
     protected function createAuthCodeClient(ClientRepository $clients)
@@ -147,7 +147,7 @@ class ClientCommand extends Command
     /**
      * Output the client's ID and secret key.
      *
-     * @param  \EdwinFadilah\Passport\Contracts\ClientModelInterface  $client
+     * @param  \Bahaso\Passport\Contracts\ClientModelInterface  $client
      * @return void
      */
     protected function outputClientDetails(ClientModelInterface $client)

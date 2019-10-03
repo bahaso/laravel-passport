@@ -1,10 +1,10 @@
 <?php
 
-namespace EdwinFadilah\Passport;
+namespace Bahaso\Passport;
 
 use DateInterval;
-use EdwinFadilah\Passport\GrantTypes\AuthOtpCodeGrant;
-use EdwinFadilah\Passport\GrantTypes\SocialGrant;
+use Bahaso\Passport\GrantTypes\AuthOtpCodeGrant;
+use Bahaso\Passport\GrantTypes\SocialGrant;
 use Illuminate\Auth\RequestGuard;
 use Illuminate\Auth\Events\Logout;
 use League\OAuth2\Server\CryptKey;
@@ -13,16 +13,16 @@ use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\ServiceProvider;
-use EdwinFadilah\Passport\Guards\TokenGuard;
+use Bahaso\Passport\Guards\TokenGuard;
 use League\OAuth2\Server\ResourceServer;
 use Illuminate\Config\Repository as Config;
 use League\OAuth2\Server\AuthorizationServer;
 use League\OAuth2\Server\Grant\AuthCodeGrant;
 use League\OAuth2\Server\Grant\ImplicitGrant;
-use EdwinFadilah\Passport\GrantTypes\PasswordGrant;
-use EdwinFadilah\Passport\Bridge\PersonalAccessGrant;
+use Bahaso\Passport\GrantTypes\PasswordGrant;
+use Bahaso\Passport\Bridge\PersonalAccessGrant;
 use League\OAuth2\Server\Grant\RefreshTokenGrant;
-use EdwinFadilah\Passport\Bridge\RefreshTokenRepository;
+use Bahaso\Passport\Bridge\RefreshTokenRepository;
 use League\OAuth2\Server\Grant\ClientCredentialsGrant;
 
 class PassportServiceProvider extends ServiceProvider

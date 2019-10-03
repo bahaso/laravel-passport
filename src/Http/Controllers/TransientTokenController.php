@@ -1,24 +1,24 @@
 <?php
 
-namespace EdwinFadilah\Passport\Http\Controllers;
+namespace Bahaso\Passport\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use EdwinFadilah\Passport\ApiTokenCookieFactory;
+use Bahaso\Passport\ApiTokenCookieFactory;
 
 class TransientTokenController
 {
     /**
      * The cookie factory instance.
      *
-     * @var \Laravel\Passport\ApiTokenCookieFactory
+     * @var \Bahaso\Passport\ApiTokenCookieFactory
      */
     protected $cookieFactory;
 
     /**
      * Create a new controller instance.
      *
-     * @param  \Laravel\Passport\ApiTokenCookieFactory  $cookieFactory
+     * @param  \Bahaso\Passport\ApiTokenCookieFactory  $cookieFactory
      * @return void
      */
     public function __construct(ApiTokenCookieFactory $cookieFactory)

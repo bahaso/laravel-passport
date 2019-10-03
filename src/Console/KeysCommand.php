@@ -1,10 +1,10 @@
 <?php
 
-namespace EdwinFadilah\Passport\Console;
+namespace Bahaso\Passport\Console;
 
 use phpseclib\Crypt\RSA;
 use Illuminate\Support\Arr;
-use EdwinFadilah\Passport\Passport;
+use Bahaso\Passport\Passport;
 use Illuminate\Console\Command;
 
 class KeysCommand extends Command

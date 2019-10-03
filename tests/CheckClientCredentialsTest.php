@@ -1,13 +1,13 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
 use Mockery as m;
 use Illuminate\Http\Request;
 use PHPUnit\Framework\TestCase;
 use League\OAuth2\Server\ResourceServer;
 use League\OAuth2\Server\Exception\OAuthServerException;
-use EdwinFadilah\Passport\Http\Middleware\CheckClientCredentials;
+use Bahaso\Passport\Http\Middleware\CheckClientCredentials;
 
 class CheckClientCredentialsTest extends TestCase
 {
@@ -79,7 +79,7 @@ class CheckClientCredentialsTest extends TestCase
     }
 
     /**
-     * @expectedException \EdwinFadilah\Passport\Exceptions\MissingScopeException
+     * @expectedException \Bahaso\Passport\Exceptions\MissingScopeException
      */
     public function test_exception_is_thrown_if_token_does_not_have_required_scopes()
     {

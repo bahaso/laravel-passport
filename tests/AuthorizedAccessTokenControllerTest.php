@@ -1,20 +1,20 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
 use Mockery as m;
-use EdwinFadilah\Passport\Token;
+use Bahaso\Passport\Token;
 use Illuminate\Http\Request;
-use EdwinFadilah\Passport\Client;
+use Bahaso\Passport\Client;
 use PHPUnit\Framework\TestCase;
-use EdwinFadilah\Passport\TokenRepository;
+use Bahaso\Passport\TokenRepository;
 use Symfony\Component\HttpFoundation\Response;
-use EdwinFadilah\Passport\Http\Controllers\AuthorizedAccessTokenController;
+use Bahaso\Passport\Http\Controllers\AuthorizedAccessTokenController;
 
 class AuthorizedAccessTokenControllerTest extends TestCase
 {
     /**
-     * @var \Mockery\Mock|\EdwinFadilah\Passport\TokenRepository
+     * @var \Mockery\Mock|\Bahaso\Passport\TokenRepository
      */
     protected $tokenRepository;
 

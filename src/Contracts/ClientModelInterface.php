@@ -6,7 +6,7 @@
  * Time: 12:32
  */
 
-namespace EdwinFadilah\Passport\Contracts;
+namespace Bahaso\Passport\Contracts;
 
 
 interface ClientModelInterface

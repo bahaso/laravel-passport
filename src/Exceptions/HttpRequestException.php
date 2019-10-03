@@ -6,7 +6,7 @@
  * Time: 10:12
  */
 
-namespace EdwinFadilah\Passport\Exceptions;
+namespace Bahaso\Passport\Exceptions;
 
 
 use Exception;

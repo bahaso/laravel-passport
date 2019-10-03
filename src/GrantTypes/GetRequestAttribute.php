@@ -6,7 +6,7 @@
  * Time: 14:05
  */
 
-namespace EdwinFadilah\Passport\GrantTypes;
+namespace Bahaso\Passport\GrantTypes;
 
 
 use Psr\Http\Message\ServerRequestInterface;

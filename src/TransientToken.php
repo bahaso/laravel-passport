@@ -1,6 +1,6 @@
 <?php
 
-namespace EdwinFadilah\Passport;
+namespace Bahaso\Passport;
 
 class TransientToken
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
 use Mockery as m;
-use EdwinFadilah\Passport\Passport;
+use Bahaso\Passport\Passport;
 use PHPUnit\Framework\TestCase;
 use Illuminate\Config\Repository as Config;
-use EdwinFadilah\Passport\PassportServiceProvider;
+use Bahaso\Passport\PassportServiceProvider;
 use Illuminate\Contracts\Foundation\Application as App;
 
 class PassportServiceProviderTest extends TestCase

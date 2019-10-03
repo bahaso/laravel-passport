@@ -1,12 +1,12 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
-use EdwinFadilah\Passport\Passport;
+use Bahaso\Passport\Passport;
 use PHPUnit\Framework\TestCase;
-use EdwinFadilah\Passport\Bridge\Scope;
-use EdwinFadilah\Passport\Bridge\Client;
-use EdwinFadilah\Passport\Bridge\ScopeRepository;
+use Bahaso\Passport\Bridge\Scope;
+use Bahaso\Passport\Bridge\Client;
+use Bahaso\Passport\Bridge\ScopeRepository;
 
 class BridgeScopeRepositoryTest extends TestCase
 {

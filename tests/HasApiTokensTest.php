@@ -1,12 +1,12 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
-use EdwinFadilah\Passport\HasApiTokens;
+use Bahaso\Passport\HasApiTokens;
 use Illuminate\Container\Container;
-use EdwinFadilah\Passport\PersonalAccessTokenFactory;
+use Bahaso\Passport\PersonalAccessTokenFactory;
 
 class HasApiTokensTest extends TestCase
 {

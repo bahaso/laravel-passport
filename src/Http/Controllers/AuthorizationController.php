@@ -1,12 +1,12 @@
 <?php
 
-namespace EdwinFadilah\Passport\Http\Controllers;
+namespace Bahaso\Passport\Http\Controllers;
 
 use Illuminate\Http\Request;
-use EdwinFadilah\Passport\Passport;
-use EdwinFadilah\Passport\Bridge\User;
-use EdwinFadilah\Passport\TokenRepository;
-use EdwinFadilah\Passport\ClientRepository;
+use Bahaso\Passport\Passport;
+use Bahaso\Passport\Bridge\User;
+use Bahaso\Passport\TokenRepository;
+use Bahaso\Passport\ClientRepository;
 use Psr\Http\Message\ServerRequestInterface;
 use Zend\Diactoros\Response as Psr7Response;
 use League\OAuth2\Server\AuthorizationServer;
@@ -48,8 +48,8 @@ class AuthorizationController
      *
      * @param  \Psr\Http\Message\ServerRequestInterface  $psrRequest
      * @param  \Illuminate\Http\Request  $request
-     * @param  \EdwinFadilah\Passport\ClientRepository  $clients
-     * @param  \EdwinFadilah\Passport\TokenRepository  $tokens
+     * @param  \Bahaso\Passport\ClientRepository  $clients
+     * @param  \Bahaso\Passport\TokenRepository  $tokens
      * @return \Illuminate\Http\Response
      */
     public function authorize(ServerRequestInterface $psrRequest,

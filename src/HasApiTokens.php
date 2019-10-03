@@ -1,6 +1,6 @@
 <?php
 
-namespace EdwinFadilah\Passport;
+namespace Bahaso\Passport;
 
 use Illuminate\Container\Container;
 
@@ -9,7 +9,7 @@ trait HasApiTokens
     /**
      * The current access token for the authentication user.
      *
-     * @var \EdwinFadilah\Passport\Token
+     * @var \Bahaso\Passport\Token
      */
     protected $accessToken;
 
@@ -36,7 +36,7 @@ trait HasApiTokens
     /**
      * Get the current access token being used by the user.
      *
-     * @return \EdwinFadilah\Passport\Token|null
+     * @return \Bahaso\Passport\Token|null
      */
     public function token()
     {
@@ -59,7 +59,7 @@ trait HasApiTokens
      *
      * @param  string  $name
      * @param  array  $scopes
-     * @return \EdwinFadilah\Passport\PersonalAccessTokenResult
+     * @return \Bahaso\Passport\PersonalAccessTokenResult
      */
     public function createToken($name, array $scopes = [])
     {
@@ -71,7 +71,7 @@ trait HasApiTokens
     /**
      * Set the current access token for the user.
      *
-     * @param  \EdwinFadilah\Passport\Token  $accessToken
+     * @param  \Bahaso\Passport\Token  $accessToken
      * @return $this
      */
     public function withAccessToken($accessToken)

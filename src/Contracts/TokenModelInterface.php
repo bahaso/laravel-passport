@@ -6,7 +6,7 @@
  * Time: 12:45
  */
 
-namespace EdwinFadilah\Passport\Contracts;
+namespace Bahaso\Passport\Contracts;
 
 
 interface TokenModelInterface

@@ -1,6 +1,6 @@
 <?php
 
-namespace EdwinFadilah\Passport\Http\Rules;
+namespace Bahaso\Passport\Http\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Contracts\Validation\Factory;

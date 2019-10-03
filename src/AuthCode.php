@@ -1,8 +1,8 @@
 <?php
 
-namespace EdwinFadilah\Passport;
+namespace Bahaso\Passport;
 
-use EdwinFadilah\Passport\Contracts\AuthCodeModelInterface;
+use Bahaso\Passport\Contracts\AuthCodeModelInterface;
 use Illuminate\Database\Eloquent\Model;
 
 class AuthCode extends Model implements AuthCodeModelInterface

@@ -1,6 +1,6 @@
 <?php
 
-namespace EdwinFadilah\Passport\Bridge;
+namespace Bahaso\Passport\Bridge;
 
 use DateInterval;
 use Psr\Http\Message\ServerRequestInterface;

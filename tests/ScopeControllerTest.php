@@ -1,11 +1,11 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
-use EdwinFadilah\Passport\Scope;
-use EdwinFadilah\Passport\Passport;
+use Bahaso\Passport\Scope;
+use Bahaso\Passport\Passport;
 use PHPUnit\Framework\TestCase;
-use EdwinFadilah\Passport\Http\Controllers\ScopeController;
+use Bahaso\Passport\Http\Controllers\ScopeController;
 
 class ScopeControllerTest extends TestCase
 {

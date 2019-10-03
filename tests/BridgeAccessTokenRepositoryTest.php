@@ -1,16 +1,16 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
 use Mockery as m;
 use Carbon\Carbon;
 use PHPUnit\Framework\TestCase;
-use EdwinFadilah\Passport\Bridge\Scope;
-use EdwinFadilah\Passport\Bridge\Client;
-use EdwinFadilah\Passport\TokenRepository;
-use EdwinFadilah\Passport\Bridge\AccessToken;
+use Bahaso\Passport\Bridge\Scope;
+use Bahaso\Passport\Bridge\Client;
+use Bahaso\Passport\TokenRepository;
+use Bahaso\Passport\Bridge\AccessToken;
 use Illuminate\Contracts\Events\Dispatcher;
-use EdwinFadilah\Passport\Bridge\AccessTokenRepository;
+use Bahaso\Passport\Bridge\AccessTokenRepository;
 
 class BridgeAccessTokenRepositoryTest extends TestCase
 {

@@ -6,11 +6,11 @@
  * Time: 10:14
  */
 
-namespace EdwinFadilah\Passport\GrantTypes;
+namespace Bahaso\Passport\GrantTypes;
 
 use DateInterval;
 use DateTime;
-use EdwinFadilah\Passport\ResponseTypes\CodeResponse;
+use Bahaso\Passport\ResponseTypes\CodeResponse;
 use League\OAuth2\Server\Entities\ClientEntityInterface;
 use League\OAuth2\Server\Entities\UserEntityInterface;
 use League\OAuth2\Server\Exception\OAuthServerException;

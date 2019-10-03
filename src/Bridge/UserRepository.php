@@ -1,6 +1,6 @@
 <?php
 
-namespace EdwinFadilah\Passport\Bridge;
+namespace Bahaso\Passport\Bridge;
 
 use RuntimeException;
 use Illuminate\Hashing\HashManager;

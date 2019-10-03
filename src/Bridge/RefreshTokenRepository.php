@@ -1,10 +1,10 @@
 <?php
 
-namespace EdwinFadilah\Passport\Bridge;
+namespace Bahaso\Passport\Bridge;
 
 use Illuminate\Database\Connection;
 use Illuminate\Contracts\Events\Dispatcher;
-use EdwinFadilah\Passport\Events\RefreshTokenCreated;
+use Bahaso\Passport\Events\RefreshTokenCreated;
 use League\OAuth2\Server\Entities\RefreshTokenEntityInterface;
 use League\OAuth2\Server\Repositories\RefreshTokenRepositoryInterface;
 

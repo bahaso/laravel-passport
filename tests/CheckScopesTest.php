@@ -1,10 +1,10 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
-use EdwinFadilah\Passport\Http\Middleware\CheckScopes;
+use Bahaso\Passport\Http\Middleware\CheckScopes;
 
 class CheckScopesTest extends TestCase
 {
@@ -30,7 +30,7 @@ class CheckScopesTest extends TestCase
     }
 
     /**
-     * @expectedException \EdwinFadilah\Passport\Exceptions\MissingScopeException
+     * @expectedException \Bahaso\Passport\Exceptions\MissingScopeException
      */
     public function test_exception_is_thrown_if_token_doesnt_have_scope()
     {

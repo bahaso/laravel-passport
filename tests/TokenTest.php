@@ -1,8 +1,8 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
-use EdwinFadilah\Passport\Token;
+use Bahaso\Passport\Token;
 use PHPUnit\Framework\TestCase;
 
 class TokenTest extends TestCase

@@ -1,14 +1,14 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
-use EdwinFadilah\Passport\Token;
-use EdwinFadilah\Passport\Client;
-use EdwinFadilah\Passport\AuthCode;
-use EdwinFadilah\Passport\Passport;
+use Bahaso\Passport\Token;
+use Bahaso\Passport\Client;
+use Bahaso\Passport\AuthCode;
+use Bahaso\Passport\Passport;
 use PHPUnit\Framework\TestCase;
-use EdwinFadilah\Passport\ClientRepository;
-use EdwinFadilah\Passport\PersonalAccessClient;
+use Bahaso\Passport\ClientRepository;
+use Bahaso\Passport\PersonalAccessClient;
 
 class PassportTest extends TestCase
 {

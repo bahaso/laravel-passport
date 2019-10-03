@@ -1,9 +1,9 @@
 <?php
 
-namespace EdwinFadilah\Passport;
+namespace Bahaso\Passport;
 
 use Carbon\Carbon;
-use EdwinFadilah\Passport\Contracts\TokenModelInterface;
+use Bahaso\Passport\Contracts\TokenModelInterface;
 
 class TokenRepository
 {
@@ -11,7 +11,7 @@ class TokenRepository
      * Creates a new Access Token.
      *
      * @param  array  $attributes
-     * @return \EdwinFadilah\Passport\Contracts\TokenModelInterface
+     * @return \Bahaso\Passport\Contracts\TokenModelInterface
      */
     public function create($attributes)
     {
@@ -22,7 +22,7 @@ class TokenRepository
      * Get a token by the given ID.
      *
      * @param  string  $id
-     * @return \EdwinFadilah\Passport\Contracts\TokenModelInterface
+     * @return \Bahaso\Passport\Contracts\TokenModelInterface
      */
     public function find($id)
     {
@@ -34,7 +34,7 @@ class TokenRepository
      *
      * @param  string  $id
      * @param  int  $userId
-     * @return \EdwinFadilah\Passport\Contracts\TokenModelInterface|null
+     * @return \Bahaso\Passport\Contracts\TokenModelInterface|null
      */
     public function findForUser($id, $userId)
     {
@@ -56,8 +56,8 @@ class TokenRepository
      * Get a valid token instance for the given user and client.
      *
      * @param  \Illuminate\Database\Eloquent\Model  $user
-     * @param  \EdwinFadilah\Passport\Contracts\ClientModelInterface  $client
-     * @return \EdwinFadilah\Passport\Contracts\TokenModelInterface|null
+     * @param  \Bahaso\Passport\Contracts\ClientModelInterface  $client
+     * @return \Bahaso\Passport\Contracts\TokenModelInterface|null
      */
     public function getValidToken($user, $client)
     {
@@ -110,8 +110,8 @@ class TokenRepository
      * Find a valid token for the given user and client.
      *
      * @param  \Illuminate\Database\Eloquent\Model  $user
-     * @param  \EdwinFadilah\Passport\Contracts\ClientModelInterface  $client
-     * @return \EdwinFadilah\Passport\Contracts\TokenModelInterface|null
+     * @param  \Bahaso\Passport\Contracts\ClientModelInterface  $client
+     * @return \Bahaso\Passport\Contracts\TokenModelInterface|null
      */
     public function findValidToken($user, $client)
     {

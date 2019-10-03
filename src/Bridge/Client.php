@@ -1,6 +1,6 @@
 <?php
 
-namespace EdwinFadilah\Passport\Bridge;
+namespace Bahaso\Passport\Bridge;
 
 use League\OAuth2\Server\Entities\Traits\ClientTrait;
 use League\OAuth2\Server\Entities\Traits\EntityTrait;

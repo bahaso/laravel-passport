@@ -1,10 +1,10 @@
 <?php
 
-namespace EdwinFadilah\Passport\Http\Controllers;
+namespace Bahaso\Passport\Http\Controllers;
 
 use Exception;
 use Illuminate\Http\Request;
-use EdwinFadilah\Passport\Bridge\User;
+use Bahaso\Passport\Bridge\User;
 
 trait RetrievesAuthRequestFromSession
 {

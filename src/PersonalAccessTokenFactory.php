@@ -1,6 +1,6 @@
 <?php
 
-namespace EdwinFadilah\Passport;
+namespace Bahaso\Passport;
 
 use Zend\Diactoros\Response;
 use Zend\Diactoros\ServerRequest;
@@ -19,14 +19,14 @@ class PersonalAccessTokenFactory
     /**
      * The client repository instance.
      *
-     * @var \EdwinFadilah\Passport\ClientRepository
+     * @var \Bahaso\Passport\ClientRepository
      */
     protected $clients;
 
     /**
      * The token repository instance.
      *
-     * @var \EdwinFadilah\Passport\TokenRepository
+     * @var \Bahaso\Passport\TokenRepository
      */
     protected $tokens;
 
@@ -41,8 +41,8 @@ class PersonalAccessTokenFactory
      * Create a new personal access token factory instance.
      *
      * @param  \League\OAuth2\Server\AuthorizationServer  $server
-     * @param  \EdwinFadilah\Passport\ClientRepository  $clients
-     * @param  \EdwinFadilah\Passport\TokenRepository  $tokens
+     * @param  \Bahaso\Passport\ClientRepository  $clients
+     * @param  \Bahaso\Passport\TokenRepository  $tokens
      * @param  \Lcobucci\JWT\Parser  $jwt
      * @return void
      */
@@ -63,7 +63,7 @@ class PersonalAccessTokenFactory
      * @param  mixed  $userId
      * @param  string  $name
      * @param  array  $scopes
-     * @return \EdwinFadilah\Passport\PersonalAccessTokenResult
+     * @return \Bahaso\Passport\PersonalAccessTokenResult
      */
     public function make($userId, $name, array $scopes = [])
     {
@@ -86,7 +86,7 @@ class PersonalAccessTokenFactory
     /**
      * Create a request instance for the given client.
      *
-     * @param  \EdwinFadilah\Passport\Client  $client
+     * @param  \Bahaso\Passport\Client  $client
      * @param  mixed  $userId
      * @param  array  $scopes
      * @return \Zend\Diactoros\ServerRequest

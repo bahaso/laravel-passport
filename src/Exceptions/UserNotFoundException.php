@@ -6,7 +6,7 @@
  * Time: 10:17
  */
 
-namespace EdwinFadilah\Passport\Exceptions;
+namespace Bahaso\Passport\Exceptions;
 
 
 class UserNotFoundException extends HttpRequestException

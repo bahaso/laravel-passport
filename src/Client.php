@@ -1,8 +1,8 @@
 <?php
 
-namespace EdwinFadilah\Passport;
+namespace Bahaso\Passport;
 
-use EdwinFadilah\Passport\Contracts\ClientModelInterface;
+use Bahaso\Passport\Contracts\ClientModelInterface;
 use Illuminate\Database\Eloquent\Model;
 
 class Client extends Model implements ClientModelInterface

@@ -1,16 +1,16 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
 use Mockery as m;
 use Lcobucci\JWT\Parser;
-use EdwinFadilah\Passport\Token;
+use Bahaso\Passport\Token;
 use PHPUnit\Framework\TestCase;
-use EdwinFadilah\Passport\TokenRepository;
-use EdwinFadilah\Passport\ClientRepository;
+use Bahaso\Passport\TokenRepository;
+use Bahaso\Passport\ClientRepository;
 use League\OAuth2\Server\AuthorizationServer;
-use EdwinFadilah\Passport\PersonalAccessTokenResult;
-use EdwinFadilah\Passport\PersonalAccessTokenFactory;
+use Bahaso\Passport\PersonalAccessTokenResult;
+use Bahaso\Passport\PersonalAccessTokenFactory;
 
 class PersonalAccessTokenFactoryTest extends TestCase
 {

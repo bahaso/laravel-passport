@@ -1,11 +1,11 @@
 {
-    "name": "edwinfadilah/laravel-passport",
-    "description": "EdwinFadilah Passport provides OAuth2 server support to Laravel with additional compatibility to handle custom models.",
-    "keywords": ["laravel", "passport", "oauth", "edwinfadilah"],
+    "name": "bahaso/laravel-passport",
+    "description": "Bahaso Passport provides OAuth2 server support to Laravel with additional compatibility to handle custom models.",
+    "keywords": ["laravel", "passport", "oauth", "bahaso"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/edwinfadilah/passport/issues",
-        "source": "https://github.com/edwinfadilah/passport"
+        "issues": "https://github.com/bahaso/laravel-passport/issues",
+        "source": "https://github.com/bahaso/laravel-passport"
     },
     "authors": [
         {
@@ -41,12 +41,12 @@
     },
     "autoload": {
         "psr-4": {
-            "EdwinFadilah\\Passport\\": "src/"
+            "Bahaso\\Passport\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "EdwinFadilah\\Passport\\Tests\\": "tests/"
+            "Bahaso\\Passport\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -55,7 +55,7 @@
         },
         "laravel": {
             "providers": [
-                "EdwinFadilah\\Passport\\PassportServiceProvider"
+                "Bahaso\\Passport\\PassportServiceProvider"
             ]
         }
     },

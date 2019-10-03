@@ -6,7 +6,7 @@
  * Time: 10:09
  */
 
-namespace EdwinFadilah\Passport\ResponseTypes;
+namespace Bahaso\Passport\ResponseTypes;
 
 
 use League\OAuth2\Server\ResponseTypes\AbstractResponseType;

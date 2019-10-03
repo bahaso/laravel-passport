@@ -1,15 +1,15 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
 use Mockery as m;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use EdwinFadilah\Passport\Passport;
+use Bahaso\Passport\Passport;
 use PHPUnit\Framework\TestCase;
-use EdwinFadilah\Passport\ApiTokenCookieFactory;
+use Bahaso\Passport\ApiTokenCookieFactory;
 use Symfony\Component\HttpFoundation\Cookie;
-use EdwinFadilah\Passport\Http\Middleware\CreateFreshApiToken;
+use Bahaso\Passport\Http\Middleware\CreateFreshApiToken;
 
 class CreateFreshApiTokenTest extends TestCase
 {

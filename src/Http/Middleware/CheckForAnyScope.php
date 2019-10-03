@@ -1,9 +1,9 @@
 <?php
 
-namespace EdwinFadilah\Passport\Http\Middleware;
+namespace Bahaso\Passport\Http\Middleware;
 
 use Illuminate\Auth\AuthenticationException;
-use EdwinFadilah\Passport\Exceptions\MissingScopeException;
+use Bahaso\Passport\Exceptions\MissingScopeException;
 
 class CheckForAnyScope
 {

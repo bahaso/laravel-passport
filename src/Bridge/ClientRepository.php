@@ -1,8 +1,8 @@
 <?php
 
-namespace EdwinFadilah\Passport\Bridge;
+namespace Bahaso\Passport\Bridge;
 
-use EdwinFadilah\Passport\ClientRepository as ClientModelRepository;
+use Bahaso\Passport\ClientRepository as ClientModelRepository;
 use League\OAuth2\Server\Repositories\ClientRepositoryInterface;
 
 class ClientRepository implements ClientRepositoryInterface
@@ -10,14 +10,14 @@ class ClientRepository implements ClientRepositoryInterface
     /**
      * The client model repository.
      *
-     * @var \EdwinFadilah\Passport\ClientRepository
+     * @var \Bahaso\Passport\ClientRepository
      */
     protected $clients;
 
     /**
      * Create a new repository instance.
      *
-     * @param  \EdwinFadilah\Passport\ClientRepository  $clients
+     * @param  \Bahaso\Passport\ClientRepository  $clients
      * @return void
      */
     public function __construct(ClientModelRepository $clients)
@@ -58,7 +58,7 @@ class ClientRepository implements ClientRepositoryInterface
     /**
      * Determine if the given client can handle the given grant type.
      *
-     * @param  \EdwinFadilah\Passport\Client  $record
+     * @param  \Bahaso\Passport\Client  $record
      * @param  string  $grantType
      * @return bool
      */

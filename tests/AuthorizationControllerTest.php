@@ -1,19 +1,19 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
 use Exception;
 use Mockery as m;
-use EdwinFadilah\Passport\Token;
+use Bahaso\Passport\Token;
 use Illuminate\Http\Request;
-use EdwinFadilah\Passport\Client;
+use Bahaso\Passport\Client;
 use Zend\Diactoros\Response;
-use EdwinFadilah\Passport\Passport;
+use Bahaso\Passport\Passport;
 use PHPUnit\Framework\TestCase;
-use EdwinFadilah\Passport\Bridge\Scope;
+use Bahaso\Passport\Bridge\Scope;
 use Illuminate\Container\Container;
-use EdwinFadilah\Passport\TokenRepository;
-use EdwinFadilah\Passport\ClientRepository;
+use Bahaso\Passport\TokenRepository;
+use Bahaso\Passport\ClientRepository;
 use Psr\Http\Message\ResponseInterface;
 use Illuminate\Contracts\Config\Repository;
 use Psr\Http\Message\ServerRequestInterface;
@@ -21,7 +21,7 @@ use League\OAuth2\Server\AuthorizationServer;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Contracts\Routing\ResponseFactory;
 use League\OAuth2\Server\RequestTypes\AuthorizationRequest;
-use EdwinFadilah\Passport\Http\Controllers\AuthorizationController;
+use Bahaso\Passport\Http\Controllers\AuthorizationController;
 
 class AuthorizationControllerTest extends TestCase
 {

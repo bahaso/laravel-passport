@@ -1,19 +1,19 @@
 <?php
 
-namespace EdwinFadilah\Passport\Tests;
+namespace Bahaso\Passport\Tests;
 
 use Mockery as m;
 use Carbon\Carbon;
 use Firebase\JWT\JWT;
 use Illuminate\Http\Request;
-use EdwinFadilah\Passport\Passport;
+use Bahaso\Passport\Passport;
 use PHPUnit\Framework\TestCase;
-use EdwinFadilah\Passport\HasApiTokens;
+use Bahaso\Passport\HasApiTokens;
 use Illuminate\Container\Container;
 use Illuminate\Encryption\Encrypter;
-use EdwinFadilah\Passport\TokenRepository;
-use EdwinFadilah\Passport\ClientRepository;
-use EdwinFadilah\Passport\Guards\TokenGuard;
+use Bahaso\Passport\TokenRepository;
+use Bahaso\Passport\ClientRepository;
+use Bahaso\Passport\Guards\TokenGuard;
 use League\OAuth2\Server\ResourceServer;
 use Illuminate\Contracts\Auth\UserProvider;
 use Illuminate\Contracts\Debug\ExceptionHandler;

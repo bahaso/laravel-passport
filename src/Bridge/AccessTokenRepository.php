@@ -1,11 +1,11 @@
 <?php
 
-namespace EdwinFadilah\Passport\Bridge;
+namespace Bahaso\Passport\Bridge;
 
 use DateTime;
-use EdwinFadilah\Passport\TokenRepository;
+use Bahaso\Passport\TokenRepository;
 use Illuminate\Contracts\Events\Dispatcher;
-use EdwinFadilah\Passport\Events\AccessTokenCreated;
+use Bahaso\Passport\Events\AccessTokenCreated;
 use League\OAuth2\Server\Entities\ClientEntityInterface;
 use League\OAuth2\Server\Entities\AccessTokenEntityInterface;
 use League\OAuth2\Server\Repositories\AccessTokenRepositoryInterface;
@@ -17,7 +17,7 @@ class AccessTokenRepository implements AccessTokenRepositoryInterface
     /**
      * The token repository instance.
      *
-     * @var \EdwinFadilah\Passport\TokenRepository
+     * @var \Bahaso\Passport\TokenRepository
      */
     protected $tokenRepository;
 
@@ -31,7 +31,7 @@ class AccessTokenRepository implements AccessTokenRepositoryInterface
     /**
      * Create a new repository instance.
      *
-     * @param  \EdwinFadilah\Passport\TokenRepository  $tokenRepository
+     * @param  \Bahaso\Passport\TokenRepository  $tokenRepository
      * @param  \Illuminate\Contracts\Events\Dispatcher  $events
      */
     public function __construct(TokenRepository $tokenRepository, Dispatcher $events)

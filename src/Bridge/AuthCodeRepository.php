@@ -1,8 +1,8 @@
 <?php
 
-namespace EdwinFadilah\Passport\Bridge;
+namespace Bahaso\Passport\Bridge;
 
-use EdwinFadilah\Passport\Passport;
+use Bahaso\Passport\Passport;
 use Illuminate\Database\Connection;
 use League\OAuth2\Server\Entities\AuthCodeEntityInterface;
 use League\OAuth2\Server\Repositories\AuthCodeRepositoryInterface;

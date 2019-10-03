@@ -1,8 +1,8 @@
 <?php
 
-namespace EdwinFadilah\Passport;
+namespace Bahaso\Passport;
 
-use EdwinFadilah\Passport\Contracts\TokenModelInterface;
+use Bahaso\Passport\Contracts\TokenModelInterface;
 use Illuminate\Database\Eloquent\Model;
 
 class Token extends Model implements TokenModelInterface

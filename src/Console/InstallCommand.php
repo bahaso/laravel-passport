@@ -1,6 +1,6 @@
 <?php
 
-namespace EdwinFadilah\Passport\Console;
+namespace Bahaso\Passport\Console;
 
 use Illuminate\Console\Command;
 

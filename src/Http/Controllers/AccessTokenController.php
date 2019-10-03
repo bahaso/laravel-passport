@@ -1,9 +1,9 @@
 <?php
 
-namespace EdwinFadilah\Passport\Http\Controllers;
+namespace Bahaso\Passport\Http\Controllers;
 
-use EdwinFadilah\Passport\GrantTypes\PasswordGrant;
-use EdwinFadilah\Passport\TokenRepository;
+use Bahaso\Passport\GrantTypes\PasswordGrant;
+use Bahaso\Passport\TokenRepository;
 use Lcobucci\JWT\Parser as JwtParser;
 use Psr\Http\Message\ServerRequestInterface;
 use Zend\Diactoros\Response as Psr7Response;
@@ -23,7 +23,7 @@ class AccessTokenController
     /**
      * The token repository instance.
      *
-     * @var \EdwinFadilah\Passport\TokenRepository
+     * @var \Bahaso\Passport\TokenRepository
      */
     protected $tokens;
 
@@ -38,7 +38,7 @@ class AccessTokenController
      * Create a new controller instance.
      *
      * @param  \League\OAuth2\Server\AuthorizationServer  $server
-     * @param  \EdwinFadilah\Passport\TokenRepository  $tokens
+     * @param  \Bahaso\Passport\TokenRepository  $tokens
      * @param  \Lcobucci\JWT\Parser  $jwt
      * @return void
      */
