@@ -183,7 +183,7 @@ class TokenGuard
         } catch (OAuthServerException $e) {
             $request->headers->set('Authorization', '', true);
 
-            throw new HttpRequestException(422, "Invalid token");
+            throw new HttpRequestException(401, "Invalid token");
             /*Container::getInstance()->make(
                 ExceptionHandler::class
             )->report($e);*/
